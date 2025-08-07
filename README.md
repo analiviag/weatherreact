@@ -2,10 +2,7 @@
 
 A clean, responsive weather application built with React that provides real-time forecasts and features dynamic, weather-based backgrounds.
 
-![My Weather App Screenshot] (<p align="center">
-<img src="./public/images/weatherreact.png" alt="My Weather App Screenshot" width="800">
-
-</p>)
+![My Weather App Screenshot] (./public/images/weatherreact.png" )
 
 ## ✨ Features
 
