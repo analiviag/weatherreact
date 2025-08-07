@@ -1,5 +1,5 @@
 .weatherInfo {
-  /* background: rgba(40, 40, 40, 0.4); */
+  background: rgba(40, 40, 40, 0.4);
   padding: 30px;
   border-radius: 10px;
 }
@@ -70,8 +70,9 @@
 .detailsGrid {
   margin-top: 1.5rem; /* Corresponds to Bootstrap's mt-4 */
   background: rgba(40, 40, 40, 0.4);
-  padding: 25px 0;
+  padding: 15px;
   border-radius: 10px;
+  margin: 10px 0px;
 }
 
 .detailsGrid .col strong {

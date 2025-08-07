@@ -38,13 +38,13 @@ You need to have [Node.js](https://nodejs.org/) and `npm` installed on your mach
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/analiviag/weatherreact.git](https://github.com/analiviag/weatherreact.git)
+    git clone https://github.com/analiviag/weatherreact.git
     ```
 
 2.  **Navigate to the project directory:**
 
     ```bash
-    cd your-repo-name
+    cd weatherreact
     ```
 
 3.  **Install NPM packages:**

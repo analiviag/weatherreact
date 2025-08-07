@@ -17,8 +17,8 @@ function WeatherDisplay({ data, unit, onUnitChange }) {
 
   return (
     <>
-      <div className={styled.weatherInfo}>
-        <div className="text-center">
+      <div>
+        <div className={`text-center ${styled.weatherInfo}`}>
           <h1 className={styled.city}>{location.name}</h1>
           <div className={styled.temperatureDisplay}>
             <img

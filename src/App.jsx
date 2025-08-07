@@ -48,7 +48,7 @@ const getBackgroundImage = (condition) => {
 };
 
 // API configuration for WeatherAPI.com
-const apiKey = "3306a70115f247b6ae7134721252403";
+const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
 
 function App() {
   //Get geolocation
