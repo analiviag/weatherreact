@@ -1,0 +1,79 @@
+.weatherInfo {
+  /* background: rgba(40, 40, 40, 0.4); */
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.city {
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.dateTime {
+  margin-top: 10px;
+  text-transform: capitalize;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+.condition {
+  font-size: 1.25rem; /* Corresponds to Bootstrap's fs-5 */
+  text-transform: capitalize;
+}
+
+.temperatureDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.icon {
+  height: 64px;
+  width: 64px;
+}
+
+.temperature {
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -25px;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.units a {
+  color: #c0c0c0;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.units a.active {
+  color: white;
+  font-weight: bold;
+  cursor: default;
+}
+
+.units a:hover,
+.units a:active {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Styles for the details grid (High/Low/Wind) */
+.detailsGrid {
+  margin-top: 1.5rem; /* Corresponds to Bootstrap's mt-4 */
+  background: rgba(40, 40, 40, 0.4);
+  padding: 25px 0;
+  border-radius: 10px;
+}
+
+.detailsGrid .col strong {
+  color: rgba(255, 255, 255, 0.8);
+}

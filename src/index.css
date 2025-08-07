@@ -1,0 +1,12 @@
+/* --- GLOBAL STYLES --- */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  min-height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}

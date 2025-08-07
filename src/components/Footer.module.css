@@ -1,0 +1,16 @@
+.signature {
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.signature a {
+  color: white;
+  text-decoration: underline;
+}
+
+.signature a:hover {
+  text-decoration: none;
+}

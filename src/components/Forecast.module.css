@@ -1,0 +1,29 @@
+.weatherForecast {
+  background: rgba(40, 40, 40, 0.4);
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}
+
+.dayOfWeek {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.minMaxContainer {
+  font-size: 1rem;
+}
+
+.maxTemp {
+  font-weight: bold;
+}
+
+.minTemp {
+  color: #dadde1;
+}
+
+@media (max-width: 768px) {
+  .weatherForecast .col {
+    margin-bottom: 25px;
+  }
+}
