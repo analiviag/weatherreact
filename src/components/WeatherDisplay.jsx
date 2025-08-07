@@ -1,5 +1,6 @@
 import React from "react";
 import Forecast from "./Forecast";
+import WeatherIcon from "./WeatherIcon.jsx";
 import styled from "./WeatherDisplay.module.css";
 
 function WeatherDisplay({ data, unit, onUnitChange }) {
@@ -18,14 +19,12 @@ function WeatherDisplay({ data, unit, onUnitChange }) {
   return (
     <>
       <div>
-        <div className={`text-center ${styled.weatherInfo}`}>
+        <div
+          className={`text-center ${styled.weatherInfo} ${styled.animatedCard}`}
+        >
           <h1 className={styled.city}>{location.name}</h1>
           <div className={styled.temperatureDisplay}>
-            <img
-              src={current.condition.icon}
-              alt={current.condition.text}
-              className={styled.icon}
-            />
+            <WeatherIcon condition={current.condition.text} size={64} />
             <strong className={styled.temperature}>
               {Math.round(unit === "C" ? current.temp_c : current.temp_f)}
             </strong>
@@ -60,7 +59,9 @@ function WeatherDisplay({ data, unit, onUnitChange }) {
         </div>
 
         {/* Grid for other details */}
-        <div className={`row text-center ${styled.detailsGrid}`}>
+        <div
+          className={`row text-center ${styled.detailsGrid} ${styled.animatedCard}`}
+        >
           <div className="col">
             <strong>High</strong>
             <div>

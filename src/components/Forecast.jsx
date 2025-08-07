@@ -1,4 +1,5 @@
 import React from "react";
+import WeatherIcon from "./WeatherIcon.jsx";
 import styled from "./Forecast.module.css";
 
 function formatDay(dateStr) {
@@ -11,16 +12,14 @@ function formatDay(dateStr) {
 
 function Forecast({ forecastDays, unit }) {
   return (
-    <div className={`text-center mt-4 ${styled.weatherForecast}`}>
+    <div
+      className={`text-center mt-4 ${styled.weatherForecast} ${styled.animatedCard}`}
+    >
       <div className="row">
         {forecastDays.map((day) => (
           <div className="col" key={day.date_epoch}>
             <div className={styled.dayOfWeek}> {formatDay(day.date)}</div>
-            <img
-              src={day.day.condition.icon}
-              alt={day.day.condition.text}
-              width="48"
-            />
+            <WeatherIcon condition={day.day.condition.text} size={48} />
             <div className={`mt-1 ${styled.minMaxContainer}`}>
               <strong className={styled.maxTemp}>
                 {Math.round(
