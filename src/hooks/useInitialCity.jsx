@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const useInitialCity = (apiKey) => {
   const [initialCity, setInitialCity] = useState(null);
