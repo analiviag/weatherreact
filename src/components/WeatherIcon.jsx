@@ -27,7 +27,7 @@ const mapConditionToIcon = (conditionText) => {
     return "FOG";
   }
 
-  return "CLOUDY"; //Defaults to this
+  return "CLEAR_DAY"; //Defaults to this
 };
 
 function WeatherIcon(props) {

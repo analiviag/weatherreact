@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import styled from "./App.module.css";
 import useInitialCity from "./hooks/useInitialCity";
 import SearchBar from "./components/SearchBar";
