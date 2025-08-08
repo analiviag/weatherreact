@@ -100,3 +100,24 @@
   /* Start it as invisible until the animation begins */
   opacity: 0;
 }
+
+@media (max-width: 480px) {
+  .city {
+    font-size: 2rem;
+  }
+
+  .temperature {
+    font-size: 60px;
+  }
+
+  .temperatureDisplay {
+    flex-direction: column; /* Stack the icon, temp etc vertically */
+    margin-top: 20px;
+  }
+
+  .units {
+    position: static; /* Reset the position to fit in the new stacked layout */
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
